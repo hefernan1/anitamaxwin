@@ -10,5 +10,7 @@ export default defineConfig({
     applyBaseStyles: false,
   })],
   output: "server",
-  adapter: vercel()
+  adapter: vercel(),
+  site: 'https://hefernan1.github.io',
+  base: '/anitamaxwin',
 });
